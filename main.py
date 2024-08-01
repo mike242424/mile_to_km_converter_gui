@@ -3,7 +3,7 @@ from tkinter import *
 
 
 def convert_miles_to_kilometers():
-    user_input = miles_input.get()
+    user_input = miles_entry.get()
     kilo_answer_label['text'] = f'{round(float(user_input) * 1.609344, 2)} kilometers'
 
 
